@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake Reactor Data</title>
+    <link th:href="@{/styles.css}" rel="stylesheet" />
+</head>
+<body>
+    <div class="big">
+        <h1 th:text="${plotName}">Snake Reactor Data</h1>
+        <img th:src="${chartURL}" />
+    </div>
+</body>
+</html>
